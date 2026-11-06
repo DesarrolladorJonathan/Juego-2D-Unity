@@ -1,14 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+ï»¿using UnityEngine;
 
-public class AreaAtaque : MonoBehaviour
-{
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("Enemigos"))
-        {
-            Debug.Log("Aplicar daño a enemigo");
-        }
-    }
-}
+// Kept for the original animation events; combat is resolved once per swing by PlayerController.
+public class AreaAtaque : MonoBehaviour { }
